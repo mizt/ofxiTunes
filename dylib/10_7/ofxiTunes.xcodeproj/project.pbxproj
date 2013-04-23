@@ -1,0 +1,391 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E03986241456C48800B8A549 /* testApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E03986211456C48800B8A549 /* testApp.cpp */; };
+		E03986251456C48800B8A549 /* testApp.h in Headers */ = {isa = PBXBuildFile; fileRef = E03986221456C48800B8A549 /* testApp.h */; };
+		E03986531456C4C000B8A549 /* ofAppBaseWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = E03986391456C4C000B8A549 /* ofAppBaseWindow.h */; };
+		E03986541456C4C000B8A549 /* ofAppRunner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E039863A1456C4C000B8A549 /* ofAppRunner.cpp */; };
+		E03986551456C4C000B8A549 /* ofAppRunner.h in Headers */ = {isa = PBXBuildFile; fileRef = E039863B1456C4C000B8A549 /* ofAppRunner.h */; };
+		E03986561456C4C000B8A549 /* ofBaseApp.h in Headers */ = {isa = PBXBuildFile; fileRef = E039863C1456C4C000B8A549 /* ofBaseApp.h */; };
+		E03986571456C4C000B8A549 /* ofxiTunesWindow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E039863D1456C4C000B8A549 /* ofxiTunesWindow.cpp */; };
+		E03986581456C4C000B8A549 /* ofxiTunesWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = E039863E1456C4C000B8A549 /* ofxiTunesWindow.h */; };
+		E03986591456C4C000B8A549 /* ofBitmapFont.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E03986401456C4C000B8A549 /* ofBitmapFont.cpp */; };
+		E039865A1456C4C000B8A549 /* ofBitmapFont.h in Headers */ = {isa = PBXBuildFile; fileRef = E03986411456C4C000B8A549 /* ofBitmapFont.h */; };
+		E039865B1456C4C000B8A549 /* ofGraphics.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E03986421456C4C000B8A549 /* ofGraphics.cpp */; };
+		E039865C1456C4C000B8A549 /* ofGraphics.h in Headers */ = {isa = PBXBuildFile; fileRef = E03986431456C4C000B8A549 /* ofGraphics.h */; };
+		E039865D1456C4C000B8A549 /* ofTexture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E03986441456C4C000B8A549 /* ofTexture.cpp */; };
+		E039865E1456C4C000B8A549 /* ofTexture.h in Headers */ = {isa = PBXBuildFile; fileRef = E03986451456C4C000B8A549 /* ofTexture.h */; };
+		E039865F1456C4C000B8A549 /* ofMain.h in Headers */ = {isa = PBXBuildFile; fileRef = E03986461456C4C000B8A549 /* ofMain.h */; };
+		E03986601456C4C000B8A549 /* ofConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = E03986481456C4C000B8A549 /* ofConstants.h */; };
+		E03986611456C4C000B8A549 /* ofMath.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E03986491456C4C000B8A549 /* ofMath.cpp */; };
+		E03986621456C4C000B8A549 /* ofMath.h in Headers */ = {isa = PBXBuildFile; fileRef = E039864A1456C4C000B8A549 /* ofMath.h */; };
+		E03986631456C4C000B8A549 /* ofNoise.h in Headers */ = {isa = PBXBuildFile; fileRef = E039864B1456C4C000B8A549 /* ofNoise.h */; };
+		E03986641456C4C000B8A549 /* ofTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = E039864C1456C4C000B8A549 /* ofTypes.h */; };
+		E03986651456C4C000B8A549 /* ofUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E039864D1456C4C000B8A549 /* ofUtils.cpp */; };
+		E03986661456C4C000B8A549 /* ofUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = E039864E1456C4C000B8A549 /* ofUtils.h */; };
+		E03986791456C59800B8A549 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E03986781456C59800B8A549 /* OpenGL.framework */; };
+		E039867D1456C59F00B8A549 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E039867C1456C59F00B8A549 /* GLUT.framework */; };
+		E03986811456C5A700B8A549 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E03986801456C5A700B8A549 /* Carbon.framework */; };
+		E08CD1231722DE6800EC1E6C /* ofxiTunesApp.h in Headers */ = {isa = PBXBuildFile; fileRef = E08CD1221722DE6800EC1E6C /* ofxiTunesApp.h */; };
+		E0BC6B7214585183005A37DF /* GLee.h in Headers */ = {isa = PBXBuildFile; fileRef = E0BC6B6C14585183005A37DF /* GLee.h */; };
+		E0BC6B7414585183005A37DF /* libGLee.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E0BC6B7114585183005A37DF /* libGLee.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D2AAC0630554660B00DB518D /* libofxiTunes.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libofxiTunes.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		E03986211456C48800B8A549 /* testApp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = testApp.cpp; sourceTree = "<group>"; };
+		E03986221456C48800B8A549 /* testApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testApp.h; sourceTree = "<group>"; };
+		E03986391456C4C000B8A549 /* ofAppBaseWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofAppBaseWindow.h; sourceTree = "<group>"; };
+		E039863A1456C4C000B8A549 /* ofAppRunner.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofAppRunner.cpp; sourceTree = "<group>"; };
+		E039863B1456C4C000B8A549 /* ofAppRunner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofAppRunner.h; sourceTree = "<group>"; };
+		E039863C1456C4C000B8A549 /* ofBaseApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofBaseApp.h; sourceTree = "<group>"; };
+		E039863D1456C4C000B8A549 /* ofxiTunesWindow.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofxiTunesWindow.cpp; sourceTree = "<group>"; };
+		E039863E1456C4C000B8A549 /* ofxiTunesWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxiTunesWindow.h; sourceTree = "<group>"; };
+		E03986401456C4C000B8A549 /* ofBitmapFont.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofBitmapFont.cpp; sourceTree = "<group>"; };
+		E03986411456C4C000B8A549 /* ofBitmapFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofBitmapFont.h; sourceTree = "<group>"; };
+		E03986421456C4C000B8A549 /* ofGraphics.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofGraphics.cpp; sourceTree = "<group>"; };
+		E03986431456C4C000B8A549 /* ofGraphics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofGraphics.h; sourceTree = "<group>"; };
+		E03986441456C4C000B8A549 /* ofTexture.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofTexture.cpp; sourceTree = "<group>"; };
+		E03986451456C4C000B8A549 /* ofTexture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofTexture.h; sourceTree = "<group>"; };
+		E03986461456C4C000B8A549 /* ofMain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofMain.h; sourceTree = "<group>"; };
+		E03986481456C4C000B8A549 /* ofConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofConstants.h; sourceTree = "<group>"; };
+		E03986491456C4C000B8A549 /* ofMath.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofMath.cpp; sourceTree = "<group>"; };
+		E039864A1456C4C000B8A549 /* ofMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofMath.h; sourceTree = "<group>"; };
+		E039864B1456C4C000B8A549 /* ofNoise.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofNoise.h; sourceTree = "<group>"; };
+		E039864C1456C4C000B8A549 /* ofTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofTypes.h; sourceTree = "<group>"; };
+		E039864D1456C4C000B8A549 /* ofUtils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofUtils.cpp; sourceTree = "<group>"; };
+		E039864E1456C4C000B8A549 /* ofUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofUtils.h; sourceTree = "<group>"; };
+		E03986781456C59800B8A549 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		E039867C1456C59F00B8A549 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		E03986801456C5A700B8A549 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
+		E08CD1221722DE6800EC1E6C /* ofxiTunesApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxiTunesApp.h; sourceTree = "<group>"; };
+		E0BC6B6C14585183005A37DF /* GLee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLee.h; sourceTree = "<group>"; };
+		E0BC6B7114585183005A37DF /* libGLee.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGLee.a; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D289988505E68E00004EDB86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E03986791456C59800B8A549 /* OpenGL.framework in Frameworks */,
+				E039867D1456C59F00B8A549 /* GLUT.framework in Frameworks */,
+				E03986811456C5A700B8A549 /* Carbon.framework in Frameworks */,
+				E0BC6B7414585183005A37DF /* libGLee.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08FB7794FE84155DC02AAC07 /* triangle */ = {
+			isa = PBXGroup;
+			children = (
+				E039861E1456C48800B8A549 /* src */,
+				1AB674ADFE9D54B511CA2CBB /* Products */,
+			);
+			name = triangle;
+			sourceTree = "<group>";
+		};
+		1AB674ADFE9D54B511CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2AAC0630554660B00DB518D /* libofxiTunes.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E039861E1456C48800B8A549 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				E03986211456C48800B8A549 /* testApp.cpp */,
+				E03986221456C48800B8A549 /* testApp.h */,
+				E08CD1221722DE6800EC1E6C /* ofxiTunesApp.h */,
+				E039862D1456C4C000B8A549 /* libs */,
+			);
+			name = src;
+			path = ../../src;
+			sourceTree = SOURCE_ROOT;
+		};
+		E039862D1456C4C000B8A549 /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				E0BC6B6A14585183005A37DF /* glee */,
+				E03986371456C4C000B8A549 /* openFrameworks */,
+				E03986781456C59800B8A549 /* OpenGL.framework */,
+				E039867C1456C59F00B8A549 /* GLUT.framework */,
+				E03986801456C5A700B8A549 /* Carbon.framework */,
+			);
+			name = libs;
+			path = ../../libs;
+			sourceTree = SOURCE_ROOT;
+		};
+		E03986371456C4C000B8A549 /* openFrameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E03986381456C4C000B8A549 /* app */,
+				E039863F1456C4C000B8A549 /* graphics */,
+				E03986461456C4C000B8A549 /* ofMain.h */,
+				E03986471456C4C000B8A549 /* utils */,
+			);
+			path = openFrameworks;
+			sourceTree = "<group>";
+		};
+		E03986381456C4C000B8A549 /* app */ = {
+			isa = PBXGroup;
+			children = (
+				E03986391456C4C000B8A549 /* ofAppBaseWindow.h */,
+				E039863A1456C4C000B8A549 /* ofAppRunner.cpp */,
+				E039863B1456C4C000B8A549 /* ofAppRunner.h */,
+				E039863C1456C4C000B8A549 /* ofBaseApp.h */,
+				E039863D1456C4C000B8A549 /* ofxiTunesWindow.cpp */,
+				E039863E1456C4C000B8A549 /* ofxiTunesWindow.h */,
+			);
+			path = app;
+			sourceTree = "<group>";
+		};
+		E039863F1456C4C000B8A549 /* graphics */ = {
+			isa = PBXGroup;
+			children = (
+				E03986401456C4C000B8A549 /* ofBitmapFont.cpp */,
+				E03986411456C4C000B8A549 /* ofBitmapFont.h */,
+				E03986421456C4C000B8A549 /* ofGraphics.cpp */,
+				E03986431456C4C000B8A549 /* ofGraphics.h */,
+				E03986441456C4C000B8A549 /* ofTexture.cpp */,
+				E03986451456C4C000B8A549 /* ofTexture.h */,
+			);
+			path = graphics;
+			sourceTree = "<group>";
+		};
+		E03986471456C4C000B8A549 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				E03986481456C4C000B8A549 /* ofConstants.h */,
+				E03986491456C4C000B8A549 /* ofMath.cpp */,
+				E039864A1456C4C000B8A549 /* ofMath.h */,
+				E039864B1456C4C000B8A549 /* ofNoise.h */,
+				E039864C1456C4C000B8A549 /* ofTypes.h */,
+				E039864D1456C4C000B8A549 /* ofUtils.cpp */,
+				E039864E1456C4C000B8A549 /* ofUtils.h */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		E0BC6B6A14585183005A37DF /* glee */ = {
+			isa = PBXGroup;
+			children = (
+				E0BC6B6B14585183005A37DF /* include */,
+				E0BC6B6D14585183005A37DF /* lib */,
+			);
+			path = glee;
+			sourceTree = "<group>";
+		};
+		E0BC6B6B14585183005A37DF /* include */ = {
+			isa = PBXGroup;
+			children = (
+				E0BC6B6C14585183005A37DF /* GLee.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		E0BC6B6D14585183005A37DF /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				E0BC6B7014585183005A37DF /* 64bit */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		E0BC6B7014585183005A37DF /* 64bit */ = {
+			isa = PBXGroup;
+			children = (
+				E0BC6B7114585183005A37DF /* libGLee.a */,
+			);
+			path = 64bit;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D2AAC0600554660B00DB518D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E03986251456C48800B8A549 /* testApp.h in Headers */,
+				E03986531456C4C000B8A549 /* ofAppBaseWindow.h in Headers */,
+				E03986551456C4C000B8A549 /* ofAppRunner.h in Headers */,
+				E03986561456C4C000B8A549 /* ofBaseApp.h in Headers */,
+				E03986581456C4C000B8A549 /* ofxiTunesWindow.h in Headers */,
+				E039865A1456C4C000B8A549 /* ofBitmapFont.h in Headers */,
+				E039865C1456C4C000B8A549 /* ofGraphics.h in Headers */,
+				E039865E1456C4C000B8A549 /* ofTexture.h in Headers */,
+				E039865F1456C4C000B8A549 /* ofMain.h in Headers */,
+				E03986601456C4C000B8A549 /* ofConstants.h in Headers */,
+				E03986621456C4C000B8A549 /* ofMath.h in Headers */,
+				E03986631456C4C000B8A549 /* ofNoise.h in Headers */,
+				E03986641456C4C000B8A549 /* ofTypes.h in Headers */,
+				E03986661456C4C000B8A549 /* ofUtils.h in Headers */,
+				E0BC6B7214585183005A37DF /* GLee.h in Headers */,
+				E08CD1231722DE6800EC1E6C /* ofxiTunesApp.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D2AAC0620554660B00DB518D /* ofxiTunes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB914A08733D8E0010E9CD /* Build configuration list for PBXNativeTarget "ofxiTunes" */;
+			buildPhases = (
+				D2AAC0600554660B00DB518D /* Headers */,
+				D2AAC0610554660B00DB518D /* Sources */,
+				D289988505E68E00004EDB86 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ofxiTunes;
+			productName = triangle;
+			productReference = D2AAC0630554660B00DB518D /* libofxiTunes.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB914E08733D8E0010E9CD /* Build configuration list for PBXProject "ofxiTunes" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 08FB7794FE84155DC02AAC07 /* triangle */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2AAC0620554660B00DB518D /* ofxiTunes */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2AAC0610554660B00DB518D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E03986241456C48800B8A549 /* testApp.cpp in Sources */,
+				E03986541456C4C000B8A549 /* ofAppRunner.cpp in Sources */,
+				E03986571456C4C000B8A549 /* ofxiTunesWindow.cpp in Sources */,
+				E03986591456C4C000B8A549 /* ofBitmapFont.cpp in Sources */,
+				E039865B1456C4C000B8A549 /* ofGraphics.cpp in Sources */,
+				E039865D1456C4C000B8A549 /* ofTexture.cpp in Sources */,
+				E03986611456C4C000B8A549 /* ofMath.cpp in Sources */,
+				E03986651456C4C000B8A549 /* ofUtils.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB914B08733D8E0010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				EXECUTABLE_PREFIX = lib;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INSTALL_PATH = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../libs/glee/lib/32bit\"",
+					"\"$(SRCROOT)/../../libs/glee/lib/64bit\"",
+				);
+				PRODUCT_NAME = ofxiTunes;
+				VALID_ARCHS = x86_64;
+			};
+			name = Debug;
+		};
+		1DEB914C08733D8E0010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				EXECUTABLE_PREFIX = lib;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../libs/glee/lib/32bit\"",
+					"\"$(SRCROOT)/../../libs/glee/lib/64bit\"",
+				);
+				PRODUCT_NAME = triangle;
+			};
+			name = Release;
+		};
+		1DEB914F08733D8E0010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		1DEB915008733D8E0010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB914A08733D8E0010E9CD /* Build configuration list for PBXNativeTarget "ofxiTunes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB914B08733D8E0010E9CD /* Debug */,
+				1DEB914C08733D8E0010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB914E08733D8E0010E9CD /* Build configuration list for PBXProject "ofxiTunes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB914F08733D8E0010E9CD /* Debug */,
+				1DEB915008733D8E0010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}
