@@ -1,5 +1,7 @@
 #ofxiTunes
 
+license : non-comacial use only, absolutely no warranty
+
 OS X 10.7+ & iTunes 10.4+ (64bit)
 
 [oF_0062_solo_lite](http://forum.openframeworks.cc/index.php?topic=5170.0) based
